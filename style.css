@@ -424,7 +424,9 @@ h2 {
 
 .editorial-quote {
   display: flex;
-  align-items: end;
+  align-items: center;
+justify-content: center;
+text-align: center;
   min-height: 100%;
   background:
     radial-gradient(circle at top right, rgba(170,140,69,0.16), transparent 35%),
