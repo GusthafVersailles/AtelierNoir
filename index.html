@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<!--
+  Atelier Noir — Luxury Digital Experience
+  Arquivo: index.html
+  Função: estrutura HTML principal do site.
+-->
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Atelier Noir — Luxury Digital Experience</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+  <!-- Estilos principais do projeto -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+
+  <header class="site-header" id="siteHeader">
+    <div class="container nav">
+      <a href="#hero" class="brand magnetic">Atelier Noir</a>
+      <nav class="nav-links">
+        <a href="#about" class="magnetic">Sobre</a>
+        <a href="#services" class="magnetic">Destaques</a>
+        <a href="#showcase" class="magnetic">Showcase</a>
+      </nav>
+      <a href="#footer" class="button ghost magnetic">Contato</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="container hero-grid">
+        <div class="reveal">
+          <span class="eyebrow">Digital Luxury Experience</span>
+          <h1>Luxury is built in the silence of every detail.</h1>
+          <p class="hero-copy">
+            Um website luxuoso, minimalista e altamente sofisticado, com presença cinematográfica, refinamento extremo e uma sensação de exclusividade em cada microinteração.
+          </p>
+          <div class="hero-actions">
+            <a href="#showcase" class="button primary magnetic">Explorar projeto</a>
+            <a href="#about" class="button ghost magnetic">Descobrir mais</a>
+          </div>
+        </div>
+
+        <div class="hero-panel reveal parallax" data-speed="0.08">
+          <div class="panel-meta">
+            <span>Edition 01</span>
+            <span>Curated Aesthetic</span>
+          </div>
+          <div class="label">Visual Precision</div>
+          <h2 class="panel-title">Timeless structure, fluid motion, immaculate restraint.</h2>
+          <p class="panel-copy">
+            Linhas limpas, ritmo editorial, atmosfera escura e uma linguagem visual pensada para parecer impecável, rara e silenciosamente poderosa.
+          </p>
+
+          <div class="metrics">
+            <div class="metric">
+              <span>Motion System</span>
+              <strong>Scroll suave, blur reveal e parallax delicado.</strong>
+            </div>
+            <div class="metric">
+              <span>Visual Tone</span>
+              <strong>Preto profundo, branco puro e dourado sutil.</strong>
+            </div>
+            <div class="metric">
+              <span>Direction</span>
+              <strong>Minimalismo premium com estética editorial.</strong>
+            </div>
+            <div class="metric">
+              <span>Experience</span>
+              <strong>Hover refinado, cursor customizado e transições fluidas.</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-top reveal">
+          <div class="section-index">01 / Sobre</div>
+          <div>
+            <h2>Elegância construída com contenção, precisão e intenção.</h2>
+            <p class="section-copy">
+              Este conceito foi desenhado para transmitir sofisticação real. Nada excessivo, nada genérico. Apenas espaço, ritmo, contraste e detalhes meticulosamente controlados para comunicar uma marca de alto padrão.
+            </p>
+          </div>
+        </div>
+
+        <div class="about-layout">
+          <div class="editorial-card reveal parallax" data-speed="0.05">
+            <p>
+              A estrutura privilegia leitura, alinhamento e respiro visual. Cada bloco foi pensado para ter presença própria, mas sem romper a harmonia geral. O resultado é uma experiência limpa, madura e silenciosamente luxuosa.
+            </p>
+          </div>
+          <div class="editorial-quote reveal">
+            <p>“Perfection is not louder. It is simply more precise.”</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-top reveal">
+          <div class="section-index">02 / Destaques</div>
+          <div>
+            <h2>Serviços e experiências com acabamento de estúdio de elite.</h2>
+            <p class="section-copy">
+              Cards minimalistas com presença premium, microinterações discretas e uma linguagem visual que prioriza sofisticação acima de volume.
+            </p>
+          </div>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card reveal magnetic">
+            <div class="service-number">01</div>
+            <h3>Brand Direction</h3>
+            <p>Identidades e posicionamentos desenvolvidos para marcas que exigem autoridade estética, raridade e consistência visual.</p>
+          </article>
+
+          <article class="service-card reveal magnetic delay-08">
+            <div class="service-number">02</div>
+            <h3>Digital Presence</h3>
+            <p>Websites autorais com atmosfera premium, narrativa visual refinada e performance alinhada à percepção de luxo.</p>
+          </article>
+
+          <article class="service-card reveal magnetic delay-16">
+            <div class="service-number">03</div>
+            <h3>Creative Systems</h3>
+            <p>Sistemas visuais elegantes, coerentes e preparados para crescer com clareza, consistência e distinção.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="showcase">
+      <div class="container">
+        <div class="section-top reveal">
+          <div class="section-index">03 / Showcase</div>
+          <div>
+            <h2>Uma galeria pensada para parecer rara, limpa e cuidadosamente curada.</h2>
+            <p class="section-copy">
+              Estrutura em grid minimalista com blocos editoriais, sobreposições suaves e hover delicado para elevar a sensação de exclusividade.
+            </p>
+          </div>
+        </div>
+
+        <div class="showcase-grid">
+          <article class="showcase-item reveal magnetic parallax" data-speed="0.04">
+            <div>
+              <div class="showcase-meta">Editorial Identity</div>
+              <h3 class="showcase-title">Quiet Luxury Campaign</h3>
+              <p class="showcase-desc">Uma composição escura, editorial e precisa para comunicar desejo sem recorrer ao excesso.</p>
+            </div>
+          </article>
+
+          <article class="showcase-item reveal magnetic delay-06">
+            <div>
+              <div class="showcase-meta">Luxury Product Story</div>
+              <h3 class="showcase-title">Monochrome Craft</h3>
+              <p class="showcase-desc">Texturas subtis, profundidade controlada e foco absoluto na matéria e no detalhe.</p>
+            </div>
+          </article>
+
+          <article class="showcase-item reveal magnetic delay-12">
+            <div>
+              <div class="showcase-meta">Private Studio</div>
+              <h3 class="showcase-title">Architectural Silence</h3>
+              <p class="showcase-desc">Um sistema visual de presença sóbria, alinhamento perfeito e impacto contido.</p>
+            </div>
+          </article>
+
+          <article class="showcase-item reveal magnetic parallax" data-speed="0.06">
+            <div>
+              <div class="showcase-meta">Collector Experience</div>
+              <h3 class="showcase-title">Curated Interaction</h3>
+              <p class="showcase-desc">Fluxo sofisticado com movimento orgânico, contraste nobre e clareza espacial.</p>
+            </div>
+          </article>
+
+          <article class="showcase-item reveal magnetic delay-08">
+            <div>
+              <div class="showcase-meta">Signature Launch</div>
+              <h3 class="showcase-title">Soft Gold Presence</h3>
+              <p class="showcase-desc">Detalhes dourados sutis para insinuar valor, exclusividade e direção premium.</p>
+            </div>
+          </article>
+
+          <article class="showcase-item reveal magnetic delay-14">
+            <div>
+              <div class="showcase-meta">Digital Maison</div>
+              <h3 class="showcase-title">Minimal Precision</h3>
+              <p class="showcase-desc">Interface enxuta e impecável, com respiro visual e hierarquia tipográfica refinada.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-grid reveal">
+        <div>
+          <div class="section-index">04 / Contact</div>
+          <h3>Built for brands that treat detail as a form of prestige.</h3>
+          <p>
+            Um conceito premium em HTML, CSS e JavaScript, pronto para servir como base de um site sofisticado de marca, estúdio criativo ou apresentação autoral de alto padrão.
+          </p>
+          <div class="footer-actions">
+            <a href="#hero" class="button primary magnetic">Voltar ao topo</a>
+            <a href="#services" class="button ghost magnetic">Ver destaques</a>
+          </div>
+          <div class="footer-meta">Atelier Noir — Luxury Digital Experience</div>
+        </div>
+
+        <div class="footer-links">
+          <a href="#about" class="social-link magnetic">Sobre</a>
+          <a href="#services" class="social-link magnetic">Serviços</a>
+          <a href="#showcase" class="social-link magnetic">Showcase</a>
+          <a href="#hero" class="social-link magnetic">Início</a>
+        </div>
+      </div>
+      <!-- Assinatura do designer -->
+      <a href="https://gusthaf-versailles.vercel.app/" target="_blank" class="designer-signature">
+        Designed by Gusthaf Versailles
+      </a>
+    </div>
+  </footer>
+
+  <!-- Scripts principais do projeto -->
+  <script src="script.js"></script>
+</body>
+</html>
